@@ -1,0 +1,57 @@
+{
+  "name": "oauth-vk",
+  "version": "1.0.0",
+  "description": "Authorization through vk oauth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init-lint": "eslint --init",
+    "eslint-fix": "npx eslint ./src/**/*.ts --fix",
+    "watch": "nodemon src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayalova/oauth-vk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayalova/oauth-vk/issues"
+  },
+  "homepage": "https://github.com/kayalova/oauth-vk#readme",
+  "devDependencies": {
+    "@types/koa": "^2.11.6",
+    "@types/koa-ejs": "^4.2.2",
+    "@types/koa-logger": "^3.1.1",
+    "@types/koa-router": "^7.4.1",
+    "@types/koa-static": "^4.0.1",
+    "@types/koa2-cors": "^2.0.1",
+    "@types/superagent": "^4.1.10",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "eslint": "^7.11.0",
+    "eslint-config-standard": "^15.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.2",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "koa": "^2.13.0",
+    "koa-bodyparser-ts": "^0.3.1",
+    "koa-ejs": "^4.3.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^9.4.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "request": "^2.88.2",
+    "superagent": "^6.1.0"
+  }
+}
